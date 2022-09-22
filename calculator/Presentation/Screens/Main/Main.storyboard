@@ -15,18 +15,361 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" text="gdfgdf" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="MGL-a2-ImU">
+                                <rect key="frame" x="20" y="47" width="350" height="282"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="85" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ede-Jg-yI8">
+                                <rect key="frame" x="20" y="344" width="350" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40+45" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4w-zq-Gb2">
+                                <rect key="frame" x="20" y="405" width="350" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZQe-vB-TiH">
+                                <rect key="frame" x="0.0" y="460" width="390" height="350"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="aZl-5A-afk">
+                                        <rect key="frame" x="20" y="0.0" width="350" height="208"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="JOk-sx-ADq">
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="66"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wy5-3l-tRu" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="66" height="66"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="Wy5-3l-tRu" secondAttribute="height" multiplier="1:1" id="mil-DI-sYi"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="C"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rj-3k-l66" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="71" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="+/-"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgb-vt-1it" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="142" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="%"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6v3-aE-9uC" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="213" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Bin"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8Y-2T-kAO" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="284" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="&lt;-"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="oGn-O9-pDA">
+                                                <rect key="frame" x="0.0" y="71" width="350" height="66"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qL3-fU-Uzv" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="7"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7b-xh-JIr" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="71" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="8"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmO-GJ-EaQ" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="142" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="9"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUd-N6-b6q" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="213" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="/"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5d-BW-ylt" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="284" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="?"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Odp-Ik-ROC">
+                                                <rect key="frame" x="0.0" y="142" width="350" height="66"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAq-cu-Vef" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="4"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhy-w1-0tp" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="71" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="5"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qly-u0-hNC" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="142" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="6"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6Z-63-zDN" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="213" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="x"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UpP-sG-szZ" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="284" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="?"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EEB-Jb-yo4">
+                                        <rect key="frame" x="20" y="213" width="279" height="137"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Zbq-U2-RNd">
+                                                <rect key="frame" x="0.0" y="0.0" width="279" height="66"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFM-cS-7gK" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="3"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5aT-tA-S02" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="71" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="2"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wo7-h9-gbN" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="142" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="1"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxE-JU-Zhr" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="213" y="0.0" width="66" height="66"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="-"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="xb1-5B-l0E">
+                                                <rect key="frame" x="0.0" y="71" width="279" height="66"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ju-7H-DmI" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="137" height="66"/>
+                                                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="0"/>
+                                                    </button>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Qi7-sE-Zh1">
+                                                        <rect key="frame" x="142" y="0.0" width="137" height="66"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jW9-uN-pMe" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="66" height="66"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" title=","/>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QpL-T0-mpJ" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                                <rect key="frame" x="71" y="0.0" width="66" height="66"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" title="+"/>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="9ju-7H-DmI" firstAttribute="trailing" secondItem="5aT-tA-S02" secondAttribute="trailing" id="gLY-6h-IP3"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ObG-2H-vqE">
+                                        <rect key="frame" x="304" y="213" width="66" height="137"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Soh-7u-Qas" customClass="RoundedButton" customModule="calculator" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="66" height="137"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="="/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="ObG-2H-vqE" firstAttribute="trailing" secondItem="UpP-sG-szZ" secondAttribute="trailing" id="6Pm-K5-dDq"/>
+                                    <constraint firstItem="EEB-Jb-yo4" firstAttribute="top" secondItem="aZl-5A-afk" secondAttribute="bottom" constant="5" id="DNb-B3-ndS"/>
+                                    <constraint firstItem="ObG-2H-vqE" firstAttribute="top" secondItem="EEB-Jb-yo4" secondAttribute="top" id="He2-lo-qce"/>
+                                    <constraint firstAttribute="trailing" secondItem="aZl-5A-afk" secondAttribute="trailing" constant="20" id="Ipe-9N-hXq"/>
+                                    <constraint firstItem="EEB-Jb-yo4" firstAttribute="leading" secondItem="aZl-5A-afk" secondAttribute="leading" id="JSf-5j-VbF"/>
+                                    <constraint firstItem="aZl-5A-afk" firstAttribute="leading" secondItem="ZQe-vB-TiH" secondAttribute="leading" constant="20" id="c4w-4w-hyo"/>
+                                    <constraint firstAttribute="bottom" secondItem="ObG-2H-vqE" secondAttribute="bottom" id="hD9-FW-EjB"/>
+                                    <constraint firstItem="ObG-2H-vqE" firstAttribute="leading" secondItem="UpP-sG-szZ" secondAttribute="leading" id="hPI-fz-rml"/>
+                                    <constraint firstItem="aZl-5A-afk" firstAttribute="top" secondItem="ZQe-vB-TiH" secondAttribute="top" id="mpm-ZA-q8d"/>
+                                    <constraint firstItem="Zbq-U2-RNd" firstAttribute="height" secondItem="JOk-sx-ADq" secondAttribute="height" id="rrH-0x-R6X"/>
+                                    <constraint firstItem="EEB-Jb-yo4" firstAttribute="trailing" secondItem="6v3-aE-9uC" secondAttribute="trailing" id="ycT-Bi-4wH"/>
+                                    <constraint firstAttribute="bottom" secondItem="EEB-Jb-yo4" secondAttribute="bottom" id="zZh-qj-fb0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="a4w-zq-Gb2" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="5M3-sP-yg3"/>
+                            <constraint firstItem="a4w-zq-Gb2" firstAttribute="top" secondItem="Ede-Jg-yI8" secondAttribute="bottom" constant="25" id="B4v-jT-RHe"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="a4w-zq-Gb2" secondAttribute="trailing" constant="20" id="Ipx-tm-cKA"/>
+                            <constraint firstItem="ZQe-vB-TiH" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="RKx-bL-CA0"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ZQe-vB-TiH" secondAttribute="trailing" id="THh-Ta-mZc"/>
+                            <constraint firstItem="MGL-a2-ImU" firstAttribute="trailing" secondItem="Ede-Jg-yI8" secondAttribute="trailing" id="U8R-P5-Web"/>
+                            <constraint firstItem="Ede-Jg-yI8" firstAttribute="top" secondItem="MGL-a2-ImU" secondAttribute="bottom" constant="15" id="aE4-Rq-BNZ"/>
+                            <constraint firstItem="ZQe-vB-TiH" firstAttribute="top" secondItem="a4w-zq-Gb2" secondAttribute="bottom" constant="25" id="fns-7y-cIw"/>
+                            <constraint firstItem="MGL-a2-ImU" firstAttribute="leading" secondItem="Ede-Jg-yI8" secondAttribute="leading" id="mWb-h0-8X1"/>
+                            <constraint firstItem="Ede-Jg-yI8" firstAttribute="leading" secondItem="a4w-zq-Gb2" secondAttribute="leading" id="nc8-gh-WUA"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="ZQe-vB-TiH" secondAttribute="bottom" id="rah-ei-blk"/>
+                            <constraint firstItem="MGL-a2-ImU" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="sdi-QM-m9Y"/>
+                            <constraint firstItem="Ede-Jg-yI8" firstAttribute="trailing" secondItem="a4w-zq-Gb2" secondAttribute="trailing" id="xkA-a6-mhr"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backspaceButton" destination="X8Y-2T-kAO" id="GT5-HI-XhD"/>
+                        <outlet property="cleanDigitsButton" destination="Wy5-3l-tRu" id="9HR-9M-laL"/>
+                        <outlet property="cleanHistoryButton" destination="6v3-aE-9uC" id="Qwa-2U-NMb"/>
+                        <outlet property="commaButton" destination="jW9-uN-pMe" id="rPm-Gr-9J8"/>
+                        <outlet property="divideButton" destination="JUd-N6-b6q" id="9nj-Ru-Qwy"/>
+                        <outlet property="eightButton" destination="a7b-xh-JIr" id="nlE-j6-ovE"/>
+                        <outlet property="equalLabel" destination="Ede-Jg-yI8" id="nBq-Eh-mg8"/>
+                        <outlet property="equalsButton" destination="Soh-7u-Qas" id="RVU-bE-Qf7"/>
+                        <outlet property="equationLabel" destination="a4w-zq-Gb2" id="ouB-58-WOC"/>
+                        <outlet property="fiveButton" destination="fhy-w1-0tp" id="rjP-qE-8hB"/>
+                        <outlet property="fourButton" destination="KAq-cu-Vef" id="DXd-Ql-Kvt"/>
+                        <outlet property="historyTextView" destination="MGL-a2-ImU" id="Pwd-Dk-9F0"/>
+                        <outlet property="minusButton" destination="gxE-JU-Zhr" id="sDM-8h-Gcz"/>
+                        <outlet property="multiplyButton" destination="L6Z-63-zDN" id="0zF-J3-Vog"/>
+                        <outlet property="nineButton" destination="xmO-GJ-EaQ" id="s8c-Pk-oyH"/>
+                        <outlet property="oneButton" destination="wo7-h9-gbN" id="Mcs-4P-iXC"/>
+                        <outlet property="persentButton" destination="lgb-vt-1it" id="Cyo-87-Jyx"/>
+                        <outlet property="plusButton" destination="QpL-T0-mpJ" id="ahw-AQ-nMB"/>
+                        <outlet property="plusMinusButton" destination="8rj-3k-l66" id="Byi-V0-0CV"/>
+                        <outlet property="sevenButton" destination="qL3-fU-Uzv" id="uGR-mH-XOW"/>
+                        <outlet property="sixButton" destination="Qly-u0-hNC" id="nnG-XX-Ozx"/>
+                        <outlet property="threeButton" destination="sFM-cS-7gK" id="NXx-X6-jM6"/>
+                        <outlet property="twoButton" destination="5aT-tA-S02" id="eIg-1r-wcP"/>
+                        <outlet property="zeroButton" destination="9ju-7H-DmI" id="NoL-zy-PJ9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58" y="-2"/>
+            <point key="canvasLocation" x="56.92307692307692" y="-2.1327014218009479"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="5aT-tA-S02">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="6v3-aE-9uC">
+            <size key="intrinsicContentSize" width="51" height="54"/>
+        </designable>
+        <designable name="8rj-3k-l66">
+            <size key="intrinsicContentSize" width="49" height="54"/>
+        </designable>
+        <designable name="9ju-7H-DmI">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="JUd-N6-b6q">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="KAq-cu-Vef">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="L6Z-63-zDN">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="Qly-u0-hNC">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="QpL-T0-mpJ">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="Soh-7u-Qas">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="UpP-sG-szZ">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="Wy5-3l-tRu">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="X8Y-2T-kAO">
+            <size key="intrinsicContentSize" width="39" height="54"/>
+        </designable>
+        <designable name="a7b-xh-JIr">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="fhy-w1-0tp">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="gxE-JU-Zhr">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="jW9-uN-pMe">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="lgb-vt-1it">
+            <size key="intrinsicContentSize" width="31" height="54"/>
+        </designable>
+        <designable name="qL3-fU-Uzv">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="sFM-cS-7gK">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="wo7-h9-gbN">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="xmO-GJ-EaQ">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+        <designable name="z5d-BW-ylt">
+            <size key="intrinsicContentSize" width="30" height="54"/>
+        </designable>
+    </designables>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

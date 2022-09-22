@@ -14,6 +14,7 @@
 		C36B113728DCC37A0034B460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36B113628DCC37A0034B460 /* Main.storyboard */; };
 		C36B113A28DCC8080034B460 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B113928DCC8080034B460 /* Storyboard.swift */; };
 		C36B113C28DCC9430034B460 /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B113B28DCC9430034B460 /* Defines.swift */; };
+		C3A9D44528DCFDFB00BFD521 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A9D44428DCFDFB00BFD521 /* RoundedButton.swift */; };
 		C3E9D89628DCBA1200877949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E9D89528DCBA1200877949 /* AppDelegate.swift */; };
 		C3E9D89828DCBA1200877949 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E9D89728DCBA1200877949 /* SceneDelegate.swift */; };
 		C3E9D89F28DCBA1400877949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E9D89E28DCBA1400877949 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		C36B113628DCC37A0034B460 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C36B113928DCC8080034B460 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		C36B113B28DCC9430034B460 /* Defines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defines.swift; sourceTree = "<group>"; };
+		C3A9D44428DCFDFB00BFD521 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		C3E9D89228DCBA1200877949 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E9D89528DCBA1200877949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3E9D89728DCBA1200877949 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		C36B112B28DCC2C40034B460 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				C3A9D44328DCFD7900BFD521 /* Views */,
 				C36B112C28DCC2CC0034B460 /* Screens */,
 			);
 			path = Presentation;
@@ -111,6 +114,14 @@
 				C36B113928DCC8080034B460 /* Storyboard.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C3A9D44328DCFD7900BFD521 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C3A9D44428DCFDFB00BFD521 /* RoundedButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		C3E9D88928DCBA1200877949 = {
@@ -251,6 +262,7 @@
 				C36B113C28DCC9430034B460 /* Defines.swift in Sources */,
 				C3E9D89628DCBA1200877949 /* AppDelegate.swift in Sources */,
 				C36B113128DCC35A0034B460 /* MainVC.swift in Sources */,
+				C3A9D44528DCFDFB00BFD521 /* RoundedButton.swift in Sources */,
 				C36B113528DCC3720034B460 /* MainCoord.swift in Sources */,
 				C3E9D89828DCBA1200877949 /* SceneDelegate.swift in Sources */,
 				C36B113A28DCC8080034B460 /* Storyboard.swift in Sources */,

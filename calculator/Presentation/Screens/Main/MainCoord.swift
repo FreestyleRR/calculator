@@ -33,6 +33,7 @@ class MainCoord {
 
 extension MainCoord {
     func start() {
-        root.pushViewController(controller, animated: false)
+        window?.rootViewController = root
+        window?.makeKeyAndVisible()
     }
 }

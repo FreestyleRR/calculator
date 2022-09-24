@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" text="gdfgdf" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="MGL-a2-ImU">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" keyboardDismissMode="onDrag" editable="NO" text="gdfgdf" textAlignment="right" selectable="NO" layoutManager="textKit2" translatesAutoresizingMaskIntoConstraints="NO" id="MGL-a2-ImU">
                                 <rect key="frame" x="20" y="47" width="350" height="282"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -281,7 +281,7 @@
                         <outlet property="multiplyButton" destination="L6Z-63-zDN" id="0zF-J3-Vog"/>
                         <outlet property="nineButton" destination="xmO-GJ-EaQ" id="s8c-Pk-oyH"/>
                         <outlet property="oneButton" destination="wo7-h9-gbN" id="Mcs-4P-iXC"/>
-                        <outlet property="persentButton" destination="lgb-vt-1it" id="Cyo-87-Jyx"/>
+                        <outlet property="perсentButton" destination="lgb-vt-1it" id="Cyo-87-Jyx"/>
                         <outlet property="plusButton" destination="QpL-T0-mpJ" id="ahw-AQ-nMB"/>
                         <outlet property="plusMinusButton" destination="8rj-3k-l66" id="Byi-V0-0CV"/>
                         <outlet property="sevenButton" destination="qL3-fU-Uzv" id="uGR-mH-XOW"/>

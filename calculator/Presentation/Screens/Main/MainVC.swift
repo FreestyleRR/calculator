@@ -11,7 +11,10 @@ import RxCocoa
 
 class MainVC: UIViewController {
     var viewModel: MainVM!
-    var fontSize: CGFloat = 40
+    let fontSize: CGFloat = 40
+    let disposeBag = DisposeBag()
+    var publishSubject = PublishSubject<Any>()
+    let observable = Observable<String>.just("First observable")
     
     @IBOutlet weak var historyTextView: UITextView!
     
@@ -20,7 +23,7 @@ class MainVC: UIViewController {
     
     @IBOutlet weak var cleanDigitsButton: RoundedButton!
     @IBOutlet weak var plusMinusButton: RoundedButton!
-    @IBOutlet weak var persentButton: RoundedButton!
+    @IBOutlet weak var perсentButton: RoundedButton!
     @IBOutlet weak var cleanHistoryButton: RoundedButton!
     @IBOutlet weak var backspaceButton: RoundedButton!
     
@@ -55,6 +58,7 @@ class MainVC: UIViewController {
     
     private func setup() {
         setupButtonColor()
+        test()
     }
     
     private func setupButtonColor() {
@@ -64,7 +68,7 @@ class MainVC: UIViewController {
         let firstGroup = [
             cleanDigitsButton,
             plusMinusButton,
-            persentButton,
+            perсentButton,
             cleanHistoryButton,
             backspaceButton
         ]
@@ -112,6 +116,12 @@ class MainVC: UIViewController {
             $0?.tintColor = .white
             $0?.titleLabel?.font = UIFont.systemFont(ofSize: fontSize, weight: .regular)
         }
+    }
+    
+    private func test() {
+        Observable.of(1,2,3,4,5).do(onNext: { print("called onNext with - \($0)") })
+            .subscribe(onNext: { print($0) })
+            .dispose()
     }
     
     
